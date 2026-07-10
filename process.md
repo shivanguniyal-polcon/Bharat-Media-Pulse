@@ -3,5 +3,5 @@
 4. Filter the relevant topics 
 5. Extract full text for those specific articles (~500K) - running Trafilatura for comprehensive scraping
 6. before running the pipeline, ensure the following:
-  -
+  -Create embeddings using transformers - preferably BAAI/bge-m3
 7. Run the pipeline (already built)
