@@ -3,25 +3,25 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d95ceaff",
+   "id": "b1892aea",
    "metadata": {
     "_cell_guid": "fd1be734-28ad-44e5-b610-aefa585fd9b7",
     "_uuid": "b0b56839-14a2-49d7-858e-7219b29852ce",
     "collapsed": false,
     "execution": {
-     "iopub.execute_input": "2026-07-11T13:22:19.388842Z",
-     "iopub.status.busy": "2026-07-11T13:22:19.388301Z",
-     "iopub.status.idle": "2026-07-11T13:22:22.495673Z",
-     "shell.execute_reply": "2026-07-11T13:22:22.494594Z"
+     "iopub.execute_input": "2026-07-11T14:02:35.214625Z",
+     "iopub.status.busy": "2026-07-11T14:02:35.214381Z",
+     "iopub.status.idle": "2026-07-11T14:02:37.906815Z",
+     "shell.execute_reply": "2026-07-11T14:02:37.905831Z"
     },
     "jupyter": {
      "outputs_hidden": false
     },
     "papermill": {
-     "duration": 3.113946,
-     "end_time": "2026-07-11T13:22:22.497728+00:00",
+     "duration": 2.697462,
+     "end_time": "2026-07-11T14:02:37.908470+00:00",
      "exception": false,
-     "start_time": "2026-07-11T13:22:19.383782+00:00",
+     "start_time": "2026-07-11T14:02:35.211008+00:00",
      "status": "completed"
     },
     "tags": []
@@ -308,19 +308,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "74029ab2",
+   "id": "46325c89",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-07-11T13:22:22.503820Z",
-     "iopub.status.busy": "2026-07-11T13:22:22.503243Z",
-     "iopub.status.idle": "2026-07-11T13:25:15.071451Z",
-     "shell.execute_reply": "2026-07-11T13:25:15.070488Z"
+     "iopub.execute_input": "2026-07-11T14:02:37.912716Z",
+     "iopub.status.busy": "2026-07-11T14:02:37.912441Z",
+     "iopub.status.idle": "2026-07-11T14:04:23.900647Z",
+     "shell.execute_reply": "2026-07-11T14:04:23.899865Z"
     },
     "papermill": {
-     "duration": 172.573512,
-     "end_time": "2026-07-11T13:25:15.073460+00:00",
+     "duration": 105.992228,
+     "end_time": "2026-07-11T14:04:23.902229+00:00",
      "exception": false,
-     "start_time": "2026-07-11T13:22:22.499948+00:00",
+     "start_time": "2026-07-11T14:02:37.910001+00:00",
      "status": "completed"
     },
     "tags": []
@@ -344,16 +344,16 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "100%|██████████| 112199/112199 [02:18<00:00, 812.03it/s]\n"
+      "100%|██████████| 112199/112199 [01:24<00:00, 1320.51it/s]\n"
      ]
     },
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "🗑️ Dropped 7,592 articles that were mostly boilerplate or too short.\n",
+      "🗑️ Dropped 9,091 articles that were mostly boilerplate or too short.\n",
       "💾 Saving cleaned corpus to: /kaggle/working/Hindi_Corpus_Cleaned.csv\n",
-      "🎉 Success! 104,607 cleaned articles saved and ready for the NLI Cascade.\n"
+      "🎉 Success! 103,108 cleaned articles saved and ready for the NLI Cascade.\n"
      ]
     }
    ],
@@ -478,6 +478,14 @@
     "    text = re.sub(r'ये भी पढ़ें\\s*$', '', text)\n",
     "    text = re.sub(r'विस्तार\\s*$', '', text)\n",
     "    \n",
+    "    # --- PASS F: AUTHOR / EDITOR BIO & TIMESTAMP REMOVAL ---\n",
+    "    # Removes \"Edited By [Name],Updated: [Date] [Time] AM/PM\" from the start of the text\n",
+    "    text = re.sub(r'^Edited By .*?(?:AM|PM)\\s*', '', text, flags=re.IGNORECASE)\n",
+    "    # Removes \"By [Name], Updated: ...\" or just \"Updated: ...\" from the start\n",
+    "    text = re.sub(r'^(?:By .*?)?,?\\s*Updated: .*?(?:AM|PM)\\s*', '', text, flags=re.IGNORECASE)\n",
+    "    # Catch-all for generic editor tags at the very beginning if they don't have AM/PM\n",
+    "    text = re.sub(r'^Edited By [^,]*,\\s*', '', text, flags=re.IGNORECASE)\n",
+    "    \n",
     "    # Final whitespace and punctuation cleanup\n",
     "    text = re.sub(r'\\s+', ' ', text).strip()\n",
     "    text = re.sub(r'[,\\s]*।[,\\s]*$', '।', text)\n",
@@ -553,14 +561,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 179.451819,
-   "end_time": "2026-07-11T13:25:15.945464+00:00",
+   "duration": 111.623146,
+   "end_time": "2026-07-11T14:04:24.544720+00:00",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-07-11T13:22:16.493645+00:00",
+   "start_time": "2026-07-11T14:02:32.921574+00:00",
    "version": "2.7.0"
   }
  },
