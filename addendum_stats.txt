@@ -1,0 +1,6 @@
+MDS Kruskal Stress: 6.5418
+Global Nearest-Neighbour Similarity: 0.9605
+Global Overall Similarity: 0.9303
+
+Correlation: Tenure vs Innovation Rate: 0.165
+Correlation: Chunks vs Innovation Rate: 0.347

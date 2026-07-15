@@ -1,0 +1,79 @@
+pm_a,pm_b,mean,ci_low,ci_high
+I.K. Gujral,Narendra Modi,0.5866775,0.5759169,0.5968444
+Chandra Shekhar,Narendra Modi,0.5894621,0.5725051,0.60511696
+Narendra Modi,Rajiv Gandhi,0.5918146,0.5829775,0.6007409
+Indira Gandhi,Narendra Modi,0.59344614,0.5886025,0.598294
+Atal Bihari Vajpayee,Narendra Modi,0.59422475,0.5859827,0.60223967
+Manmohan Singh,Narendra Modi,0.59478515,0.5852363,0.6036512
+H.D. Deve Gowda,Narendra Modi,0.5959829,0.5832164,0.60794616
+Atal Bihari Vajpayee,Chandra Shekhar,0.596492,0.58202696,0.6107539
+Chandra Shekhar,I.K. Gujral,0.5968667,0.5781435,0.6155158
+Chandra Shekhar,Manmohan Singh,0.6008384,0.5867477,0.6139915
+Narendra Modi,V.P. Singh,0.60145146,0.5806822,0.62227666
+Chandra Shekhar,Lal Bahadur Shastri,0.6020183,0.5832715,0.6200359
+Chandra Shekhar,Indira Gandhi,0.60296035,0.58871764,0.6167573
+Chandra Shekhar,Rajiv Gandhi,0.6032429,0.5896776,0.6177969
+Narendra Modi,P.V. Narasimha Rao,0.6051156,0.59335154,0.6168649
+Lal Bahadur Shastri,Narendra Modi,0.60693663,0.59669125,0.6179931
+Atal Bihari Vajpayee,I.K. Gujral,0.60712695,0.59439415,0.61969054
+Morarji Desai,Narendra Modi,0.60780156,0.59362805,0.62293285
+Chandra Shekhar,Morarji Desai,0.6086767,0.5917481,0.62477875
+Atal Bihari Vajpayee,Manmohan Singh,0.60929435,0.6000048,0.61821055
+Manmohan Singh,Rajiv Gandhi,0.60965574,0.5998509,0.619279
+Atal Bihari Vajpayee,Lal Bahadur Shastri,0.611277,0.5971871,0.62532413
+Atal Bihari Vajpayee,Indira Gandhi,0.6113871,0.6045971,0.6188651
+Jawaharlal Nehru,Narendra Modi,0.61144495,0.60654026,0.61613804
+Atal Bihari Vajpayee,Rajiv Gandhi,0.6115653,0.601431,0.62114215
+Manmohan Singh,Morarji Desai,0.6118527,0.60016066,0.6242315
+Lal Bahadur Shastri,Manmohan Singh,0.61200476,0.5994024,0.6246187
+I.K. Gujral,Rajiv Gandhi,0.6122129,0.5994373,0.6234671
+I.K. Gujral,Indira Gandhi,0.61248404,0.6036854,0.62172693
+Chandra Shekhar,V.P. Singh,0.61295253,0.58601373,0.64019895
+Indira Gandhi,Manmohan Singh,0.61300635,0.6062231,0.61962956
+Atal Bihari Vajpayee,V.P. Singh,0.6137803,0.5949058,0.63497263
+Chandra Shekhar,Jawaharlal Nehru,0.6140986,0.60307014,0.62575793
+Manmohan Singh,V.P. Singh,0.6141768,0.5975194,0.63202184
+Indira Gandhi,Rajiv Gandhi,0.6145089,0.607004,0.6229195
+I.K. Gujral,Lal Bahadur Shastri,0.61532956,0.5963368,0.6335922
+Manmohan Singh,P.V. Narasimha Rao,0.6155546,0.60397387,0.6266681
+Morarji Desai,V.P. Singh,0.61629987,0.59503335,0.63567084
+Atal Bihari Vajpayee,Morarji Desai,0.61631227,0.60232913,0.63064605
+Indira Gandhi,V.P. Singh,0.61633885,0.60027826,0.63403964
+I.K. Gujral,Manmohan Singh,0.61699915,0.6037857,0.63012475
+Indira Gandhi,Lal Bahadur Shastri,0.61738575,0.60890925,0.62695056
+I.K. Gujral,Morarji Desai,0.6181333,0.5969549,0.63857085
+Lal Bahadur Shastri,Rajiv Gandhi,0.6182201,0.60663015,0.6298141
+Lal Bahadur Shastri,V.P. Singh,0.61939394,0.6010007,0.6387913
+H.D. Deve Gowda,V.P. Singh,0.6195558,0.5976887,0.64055204
+I.K. Gujral,Jawaharlal Nehru,0.6204659,0.6116192,0.6291298
+P.V. Narasimha Rao,V.P. Singh,0.6206168,0.5993639,0.6404248
+Chandra Shekhar,P.V. Narasimha Rao,0.620803,0.60386986,0.6368342
+I.K. Gujral,V.P. Singh,0.6210657,0.5947392,0.6451659
+H.D. Deve Gowda,Manmohan Singh,0.62167245,0.60854316,0.6345112
+Indira Gandhi,P.V. Narasimha Rao,0.62264585,0.61182344,0.6329467
+Indira Gandhi,Jawaharlal Nehru,0.62289524,0.61867875,0.62670493
+Lal Bahadur Shastri,Morarji Desai,0.6230979,0.605692,0.6392307
+Atal Bihari Vajpayee,Jawaharlal Nehru,0.62311006,0.616515,0.62984973
+P.V. Narasimha Rao,Rajiv Gandhi,0.62322533,0.6116833,0.634522
+Atal Bihari Vajpayee,P.V. Narasimha Rao,0.6233166,0.61051905,0.6342971
+H.D. Deve Gowda,Rajiv Gandhi,0.6237651,0.61114365,0.6368125
+Jawaharlal Nehru,Manmohan Singh,0.62396514,0.6173819,0.63024426
+Lal Bahadur Shastri,P.V. Narasimha Rao,0.6247804,0.61089814,0.637444
+Chandra Shekhar,H.D. Deve Gowda,0.6247863,0.6027702,0.64425343
+Morarji Desai,Rajiv Gandhi,0.62494075,0.61080027,0.63847536
+Indira Gandhi,Morarji Desai,0.6254979,0.6129146,0.6387263
+Atal Bihari Vajpayee,H.D. Deve Gowda,0.62563086,0.61178887,0.63848364
+H.D. Deve Gowda,Indira Gandhi,0.62586313,0.61488485,0.6371155
+Jawaharlal Nehru,Lal Bahadur Shastri,0.62620753,0.61718845,0.63625807
+Jawaharlal Nehru,Rajiv Gandhi,0.6270493,0.61974746,0.63398784
+H.D. Deve Gowda,Lal Bahadur Shastri,0.627922,0.61363125,0.64190364
+Morarji Desai,P.V. Narasimha Rao,0.62923336,0.6129624,0.6440752
+H.D. Deve Gowda,Morarji Desai,0.63018167,0.61199737,0.6478194
+Rajiv Gandhi,V.P. Singh,0.63052183,0.60945296,0.6518472
+Jawaharlal Nehru,V.P. Singh,0.6308016,0.6157925,0.6468091
+Jawaharlal Nehru,Morarji Desai,0.6314571,0.6200031,0.643188
+I.K. Gujral,P.V. Narasimha Rao,0.6323695,0.6173007,0.6470588
+Jawaharlal Nehru,P.V. Narasimha Rao,0.6329199,0.6220782,0.6427399
+H.D. Deve Gowda,P.V. Narasimha Rao,0.63312757,0.6176322,0.6479983
+H.D. Deve Gowda,I.K. Gujral,0.6371846,0.6185343,0.65557444
+H.D. Deve Gowda,Jawaharlal Nehru,0.6470844,0.63638604,0.65849125
